@@ -2,10 +2,16 @@
 
 ## Introduction
 
-The main purpose of the project is to put into practice a use case of devops technologies.
 This project deploy a basic server application.
 
-I'm using **docker**, **nginx**, **ansible**, **terraform**
+The main purpose of the project is to put into practice a use case of devops technologies.
+
+Technologies used :
+- docker
+- nginx
+- ansible
+- terraform
+
 I'm deploying in local with a raspberrypi.
 
 ## Interactions
