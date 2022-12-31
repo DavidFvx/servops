@@ -7,10 +7,10 @@ This project deploy a basic server application.
 The main purpose of the project is to put into practice a use case of devops technologies.
 
 Technologies used :
-- docker
-- nginx
-- ansible
-- terraform
+- Docker
+- Nginx
+- Ansible
+- Terraform
 
 I'm deploying in local with a raspberrypi.
 
@@ -24,7 +24,7 @@ I'm deploying in local with a raspberrypi.
 ## Stages
 
 - [ ] Ansible
-  - [ ] Ansible / raspberrypi server connection
+  - [x] Ansible / raspberrypi server connection
   - [ ] Install docker
   - [ ] Run docker-compose
 - [ ] Docker

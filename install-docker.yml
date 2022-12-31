@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Installation de zsh
+    apt: pkg=zsh state=present
+
