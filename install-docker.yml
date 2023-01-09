@@ -6,4 +6,14 @@
     apt:
         name : docker.io
         state: present
+  - name: Enable docker
+    service:
+        name: docker
+        enabled: yes
+        state: started
+  - name : Add user to docker group
+    user:
+        name: pi
+        groups: docker
+        append: yes
 
