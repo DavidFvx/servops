@@ -10,7 +10,6 @@ Technologies used :
 - Docker
 - Nginx
 - Ansible
-- Terraform
 
 I'm deploying in local with a raspberrypi.
 
@@ -19,13 +18,12 @@ I'm deploying in local with a raspberrypi.
 - Ansible : deploy the application.
 - Docker : containerise nginx, the application and the database application.
 - Nginx : allows to connect docker containers together and to the network
-- Terraform : TODO
 
 ## Stages
 
 - [ ] Ansible
   - [x] Ansible / raspberrypi server connection
-  - [ ] Install docker
+  - [x] Install docker
   - [ ] Run docker-compose
 - [ ] Docker
   - [ ] Application image
@@ -33,5 +31,3 @@ I'm deploying in local with a raspberrypi.
   - [ ] Run a nginx container
   - [ ] Nginx connection with local network
   - [ ] Setup containers network
-- [ ] Terraform
-  - [ ] TODO
