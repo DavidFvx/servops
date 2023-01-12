@@ -28,6 +28,6 @@ I'm deploying in local with a raspberrypi.
 - [ ] Docker
   - [ ] Application image
   - [ ] Database image
-  - [ ] Run a nginx container
+  - [x] Run a nginx container
   - [ ] Nginx connection with local network
   - [ ] Setup containers network
