@@ -26,8 +26,8 @@ I'm deploying in local with a raspberrypi.
   - [x] Install docker
   - [ ] Run docker-compose
 - [ ] Docker
-  - [ ] Application image
-  - [ ] Database image
+  - [ ] Nginx container / application container connection
+  - [ ] Database container image : store a picture with persistence
+  - [ ] Application container image : show a picture
+  - [ ] Application container / database containers connection
   - [x] Run a nginx container
-  - [ ] Nginx connection with local network
-  - [ ] Setup containers network
