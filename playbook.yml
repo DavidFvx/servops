@@ -1,0 +1,5 @@
+---
+- name: Deploy service Raspi
+  hosts: all
+  roles:
+    - docker

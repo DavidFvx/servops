@@ -1,2 +1,26 @@
 ---
 # tasks file for docker
+- name: Docker installation
+  apt:
+      name : docker.io
+      state: present
+
+- name: Enable docker
+  service:
+      name: docker
+      enabled: yes
+      state: started
+
+- name : Add user to docker group
+  user:
+      name: pi
+      groups: docker
+      append: yes
+
+- name: Pull nginx
+  command: docker pull nginx
+  register: nginx_image
+
+- name: Run nginx container
+  command: docker run -p 80:80 --rm -d nginx
+  when: nginx_image.changed
